@@ -1,0 +1,62 @@
+$date
+	Sun Oct 25 19:28:04 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sram6T_tb $end
+$var wire 1 ! out $end
+$var reg 1 " bl $end
+$var reg 1 # blb $end
+$var reg 1 $ read $end
+$var reg 1 % wl $end
+$scope module dut $end
+$var wire 1 " bl $end
+$var wire 1 # blb $end
+$var wire 1 & qbar $end
+$var wire 1 $ read $end
+$var wire 1 % wl $end
+$var reg 1 ! out $end
+$var reg 1 ' q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x'
+x&
+0%
+x$
+x#
+x"
+0!
+$end
+#10000
+1&
+0'
+1#
+0"
+0$
+1%
+#20000
+1$
+#30000
+0#
+1"
+#50000
+0&
+1'
+0$
+#60000
+1!
+1$
+#70000
+1#
+0"
+#90000
