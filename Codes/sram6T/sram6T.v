@@ -1,10 +1,10 @@
 `timescale 1ns / 1ps
 
 module sram6T (
-    input  wire wl,       // Word line=1 read and weite enable wl=0 read write disable
-    input  wire read,     // 1 = Read, 0 = Write
-    input  wire bl,       // Bit line
-    input  wire blb,      // bit line Complement
+    input  wl,       // Word line=1 read and weite enable wl=0 read write disable
+    input  read,     // 1 = Read, 0 = Write
+    input  bl,       // Bit line
+    input  blb,      // bit line Complement
     output reg  out       // Read output
 );
 
