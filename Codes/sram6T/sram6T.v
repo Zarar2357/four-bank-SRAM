@@ -10,20 +10,15 @@ module sram6T (
 
     reg q;                // Stored bit
     wire qbar;            // Stored bit complement
-
     assign qbar = ~q;
-
     // Storage behavior
     // WL = 1 and read = 0: Write
     //write
     always @(*) begin
-        if(wl=0) q=1;
-
-
         if (wl && !read) begin
-            if (bl && !blb)
+            if (bl==1 && blb==0)
                 q = 1'b1;
-            else if (!bl && blb)
+            else if (bl==0 && blb==1)
                 q = 1'b0;
         end
     end
@@ -33,7 +28,6 @@ module sram6T (
         if (wl && read)
             out = q;
         else
-            out = 1'b0;
+            out = 1'b0;// is wl=x we give 0 as output
     end
-
 endmodule
