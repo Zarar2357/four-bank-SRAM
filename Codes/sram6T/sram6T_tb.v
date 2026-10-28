@@ -17,7 +17,7 @@ module sram6T_tb ();
         #10 wl=1; read=1; bl=1; blb=0;
         #10 wl=1; read=0; bl=1; blb=0;
         #10 wl=1; read=1; 
-        #10 wl=1; read=1; bl=0; blb=1;
+        #10 wl=1; read=1; bl=0; 
 
         #20 $finish;
     end
