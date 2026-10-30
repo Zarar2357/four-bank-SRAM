@@ -28,6 +28,6 @@ module sram6T (
         if (wl && read)
             out = q;
         else
-            out = 1'b0;
+            out = 1'b0;// is wl=x we give 0 as output
     end
 endmodule
