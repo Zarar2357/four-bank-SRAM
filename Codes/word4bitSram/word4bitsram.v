@@ -1,7 +1,7 @@
 `include "../sram6T/sram6T.v"
 
 module word4bitsram (
-    input  wl,       // Word line=1 read and weite enable wl=0 read write disable
+    input  wl,       // Word line=1 read and write enable wl=0 read write disable
     input  read,     // 1 = Read, 0 = Write
     input  [3:0]bl,       // Bit line
     input  [3:0]blb,      // bit line Complement
