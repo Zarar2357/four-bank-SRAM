@@ -1,0 +1,389 @@
+$date
+	Fri Nov 06 23:13:02 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module memory4x4_tb $end
+$var wire 4 ! wl [3:0] $end
+$var wire 4 " dataOut [3:0] $end
+$var reg 2 # address [1:0] $end
+$var reg 4 $ dataIn [3:0] $end
+$var reg 1 % read $end
+$scope module dut $end
+$var wire 2 & address [1:0] $end
+$var wire 4 ' dataIn [3:0] $end
+$var wire 4 ( dataInBar [3:0] $end
+$var wire 1 % read $end
+$var wire 4 ) out3 [3:0] $end
+$var wire 4 * out2 [3:0] $end
+$var wire 4 + out1 [3:0] $end
+$var wire 4 , out0 [3:0] $end
+$var reg 4 - dataOut [3:0] $end
+$var reg 4 . wl [3:0] $end
+$scope module m0 $end
+$var wire 4 / bl [3:0] $end
+$var wire 4 0 blb [3:0] $end
+$var wire 1 % read $end
+$var wire 1 1 wl $end
+$var wire 4 2 out [3:0] $end
+$scope module sram0 $end
+$var wire 1 3 bl $end
+$var wire 1 4 blb $end
+$var wire 1 5 qbar $end
+$var wire 1 % read $end
+$var wire 1 1 wl $end
+$var reg 1 6 out $end
+$var reg 1 7 q $end
+$upscope $end
+$scope module sram1 $end
+$var wire 1 8 bl $end
+$var wire 1 9 blb $end
+$var wire 1 : qbar $end
+$var wire 1 % read $end
+$var wire 1 1 wl $end
+$var reg 1 ; out $end
+$var reg 1 < q $end
+$upscope $end
+$scope module sram2 $end
+$var wire 1 = bl $end
+$var wire 1 > blb $end
+$var wire 1 ? qbar $end
+$var wire 1 % read $end
+$var wire 1 1 wl $end
+$var reg 1 @ out $end
+$var reg 1 A q $end
+$upscope $end
+$scope module sram3 $end
+$var wire 1 B bl $end
+$var wire 1 C blb $end
+$var wire 1 D qbar $end
+$var wire 1 % read $end
+$var wire 1 1 wl $end
+$var reg 1 E out $end
+$var reg 1 F q $end
+$upscope $end
+$upscope $end
+$scope module m1 $end
+$var wire 4 G bl [3:0] $end
+$var wire 4 H blb [3:0] $end
+$var wire 1 % read $end
+$var wire 1 I wl $end
+$var wire 4 J out [3:0] $end
+$scope module sram0 $end
+$var wire 1 K bl $end
+$var wire 1 L blb $end
+$var wire 1 M qbar $end
+$var wire 1 % read $end
+$var wire 1 I wl $end
+$var reg 1 N out $end
+$var reg 1 O q $end
+$upscope $end
+$scope module sram1 $end
+$var wire 1 P bl $end
+$var wire 1 Q blb $end
+$var wire 1 R qbar $end
+$var wire 1 % read $end
+$var wire 1 I wl $end
+$var reg 1 S out $end
+$var reg 1 T q $end
+$upscope $end
+$scope module sram2 $end
+$var wire 1 U bl $end
+$var wire 1 V blb $end
+$var wire 1 W qbar $end
+$var wire 1 % read $end
+$var wire 1 I wl $end
+$var reg 1 X out $end
+$var reg 1 Y q $end
+$upscope $end
+$scope module sram3 $end
+$var wire 1 Z bl $end
+$var wire 1 [ blb $end
+$var wire 1 \ qbar $end
+$var wire 1 % read $end
+$var wire 1 I wl $end
+$var reg 1 ] out $end
+$var reg 1 ^ q $end
+$upscope $end
+$upscope $end
+$scope module m2 $end
+$var wire 4 _ bl [3:0] $end
+$var wire 4 ` blb [3:0] $end
+$var wire 1 % read $end
+$var wire 1 a wl $end
+$var wire 4 b out [3:0] $end
+$scope module sram0 $end
+$var wire 1 c bl $end
+$var wire 1 d blb $end
+$var wire 1 e qbar $end
+$var wire 1 % read $end
+$var wire 1 a wl $end
+$var reg 1 f out $end
+$var reg 1 g q $end
+$upscope $end
+$scope module sram1 $end
+$var wire 1 h bl $end
+$var wire 1 i blb $end
+$var wire 1 j qbar $end
+$var wire 1 % read $end
+$var wire 1 a wl $end
+$var reg 1 k out $end
+$var reg 1 l q $end
+$upscope $end
+$scope module sram2 $end
+$var wire 1 m bl $end
+$var wire 1 n blb $end
+$var wire 1 o qbar $end
+$var wire 1 % read $end
+$var wire 1 a wl $end
+$var reg 1 p out $end
+$var reg 1 q q $end
+$upscope $end
+$scope module sram3 $end
+$var wire 1 r bl $end
+$var wire 1 s blb $end
+$var wire 1 t qbar $end
+$var wire 1 % read $end
+$var wire 1 a wl $end
+$var reg 1 u out $end
+$var reg 1 v q $end
+$upscope $end
+$upscope $end
+$scope module m3 $end
+$var wire 4 w bl [3:0] $end
+$var wire 4 x blb [3:0] $end
+$var wire 1 % read $end
+$var wire 1 y wl $end
+$var wire 4 z out [3:0] $end
+$scope module sram0 $end
+$var wire 1 { bl $end
+$var wire 1 | blb $end
+$var wire 1 } qbar $end
+$var wire 1 % read $end
+$var wire 1 y wl $end
+$var reg 1 ~ out $end
+$var reg 1 !" q $end
+$upscope $end
+$scope module sram1 $end
+$var wire 1 "" bl $end
+$var wire 1 #" blb $end
+$var wire 1 $" qbar $end
+$var wire 1 % read $end
+$var wire 1 y wl $end
+$var reg 1 %" out $end
+$var reg 1 &" q $end
+$upscope $end
+$scope module sram2 $end
+$var wire 1 '" bl $end
+$var wire 1 (" blb $end
+$var wire 1 )" qbar $end
+$var wire 1 % read $end
+$var wire 1 y wl $end
+$var reg 1 *" out $end
+$var reg 1 +" q $end
+$upscope $end
+$scope module sram3 $end
+$var wire 1 ," bl $end
+$var wire 1 -" blb $end
+$var wire 1 ." qbar $end
+$var wire 1 % read $end
+$var wire 1 y wl $end
+$var reg 1 /" out $end
+$var reg 1 0" q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x0"
+0/"
+x."
+1-"
+0,"
+x+"
+0*"
+x)"
+1("
+0'"
+x&"
+0%"
+x$"
+1#"
+0""
+x!"
+0~
+x}
+1|
+0{
+b0 z
+0y
+b1111 x
+b0 w
+xv
+0u
+xt
+1s
+0r
+xq
+0p
+xo
+1n
+0m
+xl
+0k
+xj
+1i
+0h
+xg
+0f
+xe
+1d
+0c
+b0 b
+0a
+b1111 `
+b0 _
+x^
+0]
+x\
+1[
+0Z
+xY
+0X
+xW
+1V
+0U
+xT
+0S
+xR
+1Q
+0P
+xO
+0N
+xM
+1L
+0K
+b0 J
+0I
+b1111 H
+b0 G
+xF
+xE
+xD
+1C
+0B
+xA
+x@
+x?
+1>
+0=
+x<
+x;
+x:
+19
+08
+x7
+x6
+x5
+14
+03
+bx 2
+11
+b1111 0
+b0 /
+b1 .
+bx -
+bx ,
+b0 +
+b0 *
+b0 )
+b1111 (
+b0 '
+b0 &
+1%
+b0 $
+b0 #
+bx "
+b1 !
+$end
+#10000
+09
+0Q
+0i
+0#"
+15
+0:
+1?
+b0 "
+b0 -
+1D
+b1101 (
+b1101 0
+b1101 H
+b1101 `
+b1101 x
+18
+1P
+1h
+1""
+06
+07
+0;
+1<
+0@
+0A
+b0 ,
+b0 2
+0E
+0F
+b10 $
+b10 '
+b10 /
+b10 G
+b10 _
+b10 w
+0%
+#20000
+19
+0>
+1Q
+0V
+1i
+0n
+1#"
+0("
+b10 "
+b10 -
+b1011 (
+b1011 0
+b1011 H
+b1011 `
+b1011 x
+08
+1=
+0P
+1U
+0h
+1m
+0""
+1'"
+b10 ,
+b10 2
+1;
+b100 $
+b100 '
+b100 /
+b100 G
+b100 _
+b100 w
+1%
+#30000
