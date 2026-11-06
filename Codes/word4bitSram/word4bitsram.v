@@ -1,3 +1,5 @@
+`include "../sram6T/sram6T.v"
+
 module word4bitsram (
     input  wl,       // Word line=1 read and weite enable wl=0 read write disable
     input  read,     // 1 = Read, 0 = Write
